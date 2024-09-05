@@ -1,4 +1,4 @@
-# Project: Full Name Extraction with OpenAI (via Caila)
+# Project: Name Extraction with OpenAI (via Caila)
 
 This project extracts full names (ФИО) from provided text using OpenAI GPT-3.5, and returns the results as structured entities with metadata, such as name position and type. It’s designed to handle both Russian and English names using a combination of API requests and regular expression processing.
 
