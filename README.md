@@ -3,11 +3,11 @@
 This project extracts full names (ФИО) from provided text using OpenAI GPT-3.5, and returns the results as structured entities with metadata, such as name position and type. It’s designed to handle both Russian and English names using a combination of API requests and regular expression processing.
 
 ## Features
-Text processing: Accepts multiple text inputs to process and extract full names.
-Name extraction: Identifies and extracts both English and Russian full names (ФИО) using OpenAI GPT-3.5 model.
-Structured output: Returns a structured response containing extracted names, their positions within the text, and metadata about the entity.
-API integration: Utilizes OpenAI API to handle natural language processing tasks.
-Cloud-ready: Can be deployed on MLP Cloud using MLP SDK.
+- Text processing: Accepts multiple text inputs to process and extract full names.
+- Name extraction: Identifies and extracts both English and Russian full names (ФИО) using OpenAI GPT-3.5 model (as Baseline).
+- Structured output: Returns a structured response containing extracted names, their positions within the text, and metadata about the entity.
+- API integration: Utilizes OpenAI API (Caila API) to handle natural language processing tasks.
+- Cloud-ready: Can be deployed on MLP Cloud using MLP SDK.
 
 ## How It Works
 - Input: You provide a list of texts via a PredictRequest model.
