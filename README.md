@@ -24,6 +24,7 @@ This project extracts full names (ФИО) from provided text using OpenAI GPT-3.
   "texts": [
     "Albert Einstein was a theoretical physicist."
   ]
+}
 ```
 
 2. Output
