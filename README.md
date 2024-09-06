@@ -26,10 +26,7 @@ This project extracts full names (ФИО) from provided text using OpenAI GPT-3.
   ]
 ```
 
-```markdown
-
 2. Output
-```
 ```json
 {
   "entities_list": [
@@ -50,7 +47,6 @@ This project extracts full names (ФИО) from provided text using OpenAI GPT-3.
   ]
 }
 ```
-```markdown
 - entities_list: A list corresponding to each input text.
 	- entities: A list of identified entities.
 		-value: The extracted full name.
