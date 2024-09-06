@@ -17,7 +17,7 @@ Cloud-ready: Can be deployed on MLP Cloud using MLP SDK.
 - Output: The final output is a structured PredictResponse containing all the extracted entities for each input text.
 
 ## Service Accuracy Evaluation (Caila) with Jupyter Notebook
-This project includes a Jupyter Notebook (service_analysis.ipynb) that demonstrates the evaluation of the service's accuracy in extracting full names (ФИО) using the Caila API. Performance шы evaluated using the following models: GPT-4o-mini, GPT-3.5-turbo, GPT-3.5-turbo-16k
+This project includes a Jupyter Notebook (service_analysis.ipynb) that demonstrates the evaluation of the service's accuracy in extracting full names (ФИО) using the Caila API. Performance is evaluated using the following models: GPT-4o-mini, GPT-3.5-turbo, GPT-3.5-turbo-16k
 - Dataset Used
 For accuracy evaluation, we used the NERUS dataset, which can be found at NERUS GitHub.
 - Performance Evaluation.
