@@ -25,6 +25,11 @@ We evaluate the service based on three key metrics: Recall, Precision, F1 Score.
 We compute Macro-averaged metrics, meaning that we calculate the metrics for each pair (list of correct names and predicted names) and then output the average values.
 - Common Model Errors & thoughts
 
+## Usage and Deployment
+This project is designed to be containerized using Docker and deployed to the Caila service.
+To build the service locally, run ./build.sh in the project root. You need to have Docker Engine installed and running.
+For more details on deploying Python services with Docker and Caila, refer to the MLP Python Service Template (https://github.com/just-ai/mlp-python-service-template).
+
 ## Requirements
 Python 3.8+
 mlp_sdk for hosting and managing cloud services
