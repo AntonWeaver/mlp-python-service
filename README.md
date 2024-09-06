@@ -49,7 +49,7 @@ This project extracts full names (ФИО) from provided text using OpenAI GPT-3.
 ```
 - entities_list: A list corresponding to each input text.
 	- entities: A list of identified entities.
-		-value: The extracted full name.
+		- value: The extracted full name.
 		- entity_type: Type of the entity, e.g., "PERSON".
 		- span: Object with start and end indices of the entity in the text.
 			- start_index: Starting position of the entity.
