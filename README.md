@@ -17,8 +17,9 @@ This project extracts full names (ФИО) from provided text using OpenAI GPT-3.
 - Output: The final output is a structured PredictResponse containing all the extracted entities for each input text.
 
 ## Example Workflow
-```json
+
 1. Input
+```json
 {
   "texts": [
     "Albert Einstein was a theoretical physicist."
@@ -28,6 +29,7 @@ This project extracts full names (ФИО) from provided text using OpenAI GPT-3.
 ```markdown
 
 2. Output
+```
 ```json
 {
   "entities_list": [
@@ -47,6 +49,7 @@ This project extracts full names (ФИО) from provided text using OpenAI GPT-3.
     }
   ]
 }
+```
 ```markdown
 - entities_list: A list corresponding to each input text.
 	- entities: A list of identified entities.
